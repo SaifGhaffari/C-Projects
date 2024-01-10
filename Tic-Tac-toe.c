@@ -9,7 +9,7 @@ int main()
     char a[9]={' ', ' ', ' ',
                ' ', ' ', ' ',
                ' ', ' ', ' '};
-    int x,y,z,w;
+    int x,y;
     printf("\n   Welcome to Tic-Tac-Toe   \n");
     printf("\n   Player1 choose your name:");
     scanf(" %s",&name1);
