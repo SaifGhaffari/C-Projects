@@ -16,7 +16,9 @@ int main()
     choise1=toupper(choise1);
     while(choise1 != 'R' && choise1 != 'P' && choise1 != 'S'){
         printf("   Player, choose again: ");
+        scanf("%c");
         scanf("%c",&choise1);
+        choise1=toupper(choise1);
     }
     srand(time(0));
     s=(rand()%3)+1;
